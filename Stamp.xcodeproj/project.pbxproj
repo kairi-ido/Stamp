@@ -15,6 +15,11 @@
 		417D67B425069B7600FA19BA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 417D67B225069B7600FA19BA /* LaunchScreen.storyboard */; };
 		417D67BF25069B7600FA19BA /* StampTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 417D67BE25069B7600FA19BA /* StampTests.swift */; };
 		417D67CA25069B7600FA19BA /* StampUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 417D67C925069B7600FA19BA /* StampUITests.swift */; };
+		417D67FC25069CF800FA19BA /* hana.png in Resources */ = {isa = PBXBuildFile; fileRef = 417D67F725069CF800FA19BA /* hana.png */; };
+		417D67FD25069CF800FA19BA /* onpu.png in Resources */ = {isa = PBXBuildFile; fileRef = 417D67F825069CF800FA19BA /* onpu.png */; };
+		417D67FE25069CF800FA19BA /* hoshi.png in Resources */ = {isa = PBXBuildFile; fileRef = 417D67F925069CF800FA19BA /* hoshi.png */; };
+		417D67FF25069CF800FA19BA /* background.png in Resources */ = {isa = PBXBuildFile; fileRef = 417D67FA25069CF800FA19BA /* background.png */; };
+		417D680025069CF800FA19BA /* shitumon.png in Resources */ = {isa = PBXBuildFile; fileRef = 417D67FB25069CF800FA19BA /* shitumon.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +54,11 @@
 		417D67C525069B7600FA19BA /* StampUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StampUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		417D67C925069B7600FA19BA /* StampUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StampUITests.swift; sourceTree = "<group>"; };
 		417D67CB25069B7600FA19BA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		417D67F725069CF800FA19BA /* hana.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hana.png; sourceTree = "<group>"; };
+		417D67F825069CF800FA19BA /* onpu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = onpu.png; sourceTree = "<group>"; };
+		417D67F925069CF800FA19BA /* hoshi.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hoshi.png; sourceTree = "<group>"; };
+		417D67FA25069CF800FA19BA /* background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = background.png; sourceTree = "<group>"; };
+		417D67FB25069CF800FA19BA /* shitumon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = shitumon.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +109,7 @@
 		417D67A625069B7400FA19BA /* Stamp */ = {
 			isa = PBXGroup;
 			children = (
+				417D67F625069CF800FA19BA /* Stamp素材 */,
 				417D67A725069B7400FA19BA /* AppDelegate.swift */,
 				417D67A925069B7400FA19BA /* SceneDelegate.swift */,
 				417D67AB25069B7400FA19BA /* ViewController.swift */,
@@ -126,6 +137,18 @@
 				417D67CB25069B7600FA19BA /* Info.plist */,
 			);
 			path = StampUITests;
+			sourceTree = "<group>";
+		};
+		417D67F625069CF800FA19BA /* Stamp素材 */ = {
+			isa = PBXGroup;
+			children = (
+				417D67F725069CF800FA19BA /* hana.png */,
+				417D67F825069CF800FA19BA /* onpu.png */,
+				417D67F925069CF800FA19BA /* hoshi.png */,
+				417D67FA25069CF800FA19BA /* background.png */,
+				417D67FB25069CF800FA19BA /* shitumon.png */,
+			);
+			path = "Stamp素材";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -233,8 +256,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				417D67B425069B7600FA19BA /* LaunchScreen.storyboard in Resources */,
+				417D67FE25069CF800FA19BA /* hoshi.png in Resources */,
+				417D67FF25069CF800FA19BA /* background.png in Resources */,
+				417D67FD25069CF800FA19BA /* onpu.png in Resources */,
 				417D67B125069B7600FA19BA /* Assets.xcassets in Resources */,
 				417D67AF25069B7400FA19BA /* Main.storyboard in Resources */,
+				417D680025069CF800FA19BA /* shitumon.png in Resources */,
+				417D67FC25069CF800FA19BA /* hana.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -435,6 +463,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6PN9A6G6V4;
 				INFOPLIST_FILE = Stamp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -452,6 +481,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6PN9A6G6V4;
 				INFOPLIST_FILE = Stamp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
